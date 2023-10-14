@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap'); /* Chinese calligraphy-inspired font */
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border: 1px solid #000000; 
+}
+
+h1 {
+    text-align: center;
+    color: #ff0000; 
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 10px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    color: #000000; 
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0000; 
+    color: #ffffff; 
+    border: none;
+    cursor: pointer;
+    font-size: 18px; 
+}
+
+button:hover {
+    background-color: #cc0000; 
+    transform: scale(1.05); /* Slightly enlarge the button on hover for a dynamic effect */
+}
+
+#result {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px; /* Add some spacing between the form and result */
+}
